@@ -64,4 +64,42 @@ section titel style
 /* ---:horizontal line--- */
 hr{
     border: 1px solid #D1D1D1;
+    margin-bottom: 30px;
+}
+
+/* ------------
+top blogs style
+--------------*/
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.blog {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-thumbnail img{
+    width: 177px;
+    height: 117px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+
+.blog-info h3{
+    color: #000000;
+    font-size: 20px;
+}
+
+.blog-info .blog-author{
+    color: #9F9F9F;
+    font-size: 16px;
+}
+
+.blog-info a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #562EFF;
 }
